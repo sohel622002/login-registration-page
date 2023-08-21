@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    min-height: 100vh;
+    background-image: url(bg\ image.jpg);
+    background-size: cover;
+    display: grid;
+    place-items: center;
+}
+
+.login-page{
+    width: 400px;
+    background-color: white;
+    padding: 2rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.427), rgba(255, 255, 255, 0.45)) ,url(deer-image02.jpg);
+    background-position: center;
+    border: 1px solid white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.avatar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar img{
+    width: 100px;
+}
+
+.input-div{
+    font-size: 1.2rem;
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+}
+
+.input-div > input{
+    font-size: 1rem;
+    padding: .5em;
+    outline: none;
+    border: 1px solid lightgray;
+}
+
+.password{
+    margin-top: 10px;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons > button{
+    font-size: 1rem;
+    padding: .5rem 1rem;
+    background-color: rgb(49, 49, 238);
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.login-signin-links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-signin-links a{
+    margin-left: 10px;
+}
